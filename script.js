@@ -223,7 +223,3 @@ function multiply(a, b) {
 function divide(a, b) {
   return +a / +b;
 }
-
-window.addEventListener("keydown", (e) => {
-  console.log(e);
-});
