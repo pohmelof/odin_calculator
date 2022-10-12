@@ -10,6 +10,7 @@
   <body>
     <div class="container">
       <div class="display">
+        <div class="max-input hidden">MAX INPUT</div>
         <div class="display-operation"></div>
         <div class="display-output"></div>
       </div>
@@ -24,17 +25,17 @@
           <button class="number">1</button>
           <button class="number">2</button>
           <button class="number">3</button>
-          <button class="number">.</button>
+          <button class="period">.</button>
           <button class="number">0</button>
           <button class="clear">C</button>
         </div>
         <div class="operator-pad">
-          <button class="undo">&#8592;</button>
+          <button class="undo" data-mode="undo">&#8592;</button>
           <button class="operator" data-mode="add">+</button>
           <button class="operator" data-mode="subtract">-</button>
           <button class="operator" data-mode="multiply">x</button>
           <button class="operator" data-mode="divide">/</button>
-          <button class="equals">=</button>
+          <button class="equals" data-mode="equals">=</button>
         </div>
       </div>
     </div>
